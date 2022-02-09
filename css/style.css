@@ -1,4 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+/*variable globaux*/
+
 :root{
+    --text-color:#000000;
     -primay-color:#219F94;
     -secondary-color: #F5EEDC;
+    --font-family:'Open Sans', sans-serif;
+}
+/*initialisation selecteur*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--font-familyr);
+    scroll-behavior: smooth;
 }
